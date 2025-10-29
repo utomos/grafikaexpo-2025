@@ -38,21 +38,21 @@
 
             <!-- Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6">
-                    <div class="text-3xl md:text-4xl font-bold text-white mb-2">150+</div>
-                    <div class="text-blue-200 text-sm">Peserta Pameran</div>
+                <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-30">
+                    <div class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">150+</div>
+                    <div class="text-sm font-medium text-blue-600">Peserta Pameran</div>
                 </div>
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6">
-                    <div class="text-3xl md:text-4xl font-bold text-white mb-2">5000+</div>
-                    <div class="text-blue-200 text-sm">Pengunjung</div>
+                <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-30">
+                    <div class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">5000+</div>
+                    <div class=" text-sm font-medium text-blue-600">Pengunjung</div>
                 </div>
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6">
-                    <div class="text-3xl md:text-4xl font-bold text-white mb-2">20+</div>
-                    <div class="text-blue-200 text-sm">Seminar & Workshop</div>
+                <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-30">
+                    <div class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">20+</div>
+                    <div class="text-sm font-medium text-blue-600">Seminar & Workshop</div>
                 </div>
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6">
-                    <div class="text-3xl md:text-4xl font-bold text-white mb-2">4</div>
-                    <div class="text-blue-200 text-sm">Hari Event</div>
+                <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-30">
+                    <div class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">4</div>
+                    <div class="text-sm font-medium text-blue-600">Hari Event</div>
                 </div>
             </div>
         </div>
@@ -263,31 +263,12 @@
                 Jangan lewatkan kesempatan emas untuk mengembangkan bisnis percetakan Anda. Daftar sekarang dan dapatkan berbagai keuntungan eksklusif!
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="{{ route('registration') }}" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-xl inline-flex items-center justify-center">
-                    <i class="fas fa-user-plus mr-2"></i>Daftar sebagai Pengunjung
-                </a>
                 <a href="#" class="bg-blue-800 border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-900 transition inline-flex items-center justify-center">
-                    <i class="fas fa-store mr-2"></i>Daftar sebagai Peserta
+                    <i class="fas fa-store mr-2"></i>Daftar sekarang
                 </a>
             </div>
 
-            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6">
-                    <i class="fas fa-tags text-4xl mb-3"></i>
-                    <h3 class="font-bold text-lg mb-2">Harga Spesial</h3>
-                    <p class="text-blue-100 text-sm">Dapatkan diskon early bird untuk pendaftaran awal</p>
-                </div>
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6">
-                    <i class="fas fa-gift text-4xl mb-3"></i>
-                    <h3 class="font-bold text-lg mb-2">Free Merchandise</h3>
-                    <p class="text-blue-100 text-sm">Goodie bag dan merchandise eksklusif untuk peserta</p>
-                </div>
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6">
-                    <i class="fas fa-certificate text-4xl mb-3"></i>
-                    <h3 class="font-bold text-lg mb-2">Sertifikat</h3>
-                    <p class="text-blue-100 text-sm">Sertifikat resmi untuk peserta workshop dan seminar</p>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
